@@ -1,0 +1,62 @@
+Page 1: Introduction to Attributes and Methods
+Topic - 4: Attributes & Methods in python
+Attributes: Variables that store data inside a class
+. They represent "What the object has"
+.
+Methods: Functions defined inside a class that describe the behavior of the object
+. They represent "What the object does"
+.
+Every object contains:
+Data (attributes)
+.
+Action (methods)
+.
+Example: Student
+Attributes (Data): name, age, marks
+.
+Methods (Behavior): study(), write_exam(), display_info()
+.
+Types of Attributes:
+Class Attributes: These are shared by all objects
+. All objects share the same value because the attribute belongs to the class, not to individual objects
+.
+Instance Attributes
+.
+
+--------------------------------------------------------------------------------
+Page 2: Class vs. Instance Attributes
+Example of Class Attributes:
+A class Student is defined with a class attribute school = "SVCE"
+.
+When objects s1 and s2 are created, both print(s1.school) and print(s2.school) will output the same value because it is shared
+.
+2. Instance Attributes:
+These belong to each object separately
+.
+Python Example:
+Key Difference: s1 and s2 have different data. Each object stores its own values
+.
+
+--------------------------------------------------------------------------------
+Page 3: Methods and the 'self' Parameter
+Methods in python:
+Methods are functions defined inside a class
+.
+Every method must have self as the first parameter
+.
+Example Code:
+class Student:
+    def __init__(self, name):
+        self.name = name
+
+    def greet(self):
+        print("Hello my name is", self.name)
+
+s1 = Student("Nithesh")
+s1.greet()
+``` [3]
+*   **Output:** "Hello my name is Nithesh" [3].
+
+**Understanding 'self':**
+*   **`self` represents the current object** [3].
+*   In the example above, `self` refers specifically to the object `s1` [3].
