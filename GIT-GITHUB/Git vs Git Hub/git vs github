@@ -1,0 +1,72 @@
+Page 1 – Introduction
+🔹 Git vs GitHub
+Git → Tool that runs on your computer
+GitHub → Platform that runs on the internet
+🔹 Simple Understanding
+Git = Engine
+GitHub = Cloud storage + collaboration platform
+🔹 What is Git?
+
+Git is:
+
+Installed on your local system
+Tracks your code changes
+Works offline
+Manages versions of code
+
+👉 You can use Git without GitHub
+
+📄 Page 2 – GitHub & Workflow
+🔹 What is GitHub?
+
+GitHub is:
+
+A cloud platform
+Stores Git repositories online
+Helps teams collaborate
+Provides features like:
+Pull Requests (PRs)
+Issues
+CI/CD
+
+👉 GitHub internally uses Git
+
+🔹 Real-World Analogy
+Git → Your local notebook
+GitHub → Google Drive
+🔹 How They Work Together
+
+Flow (from page diagram):
+
+Your Laptop (Git)  ⇄  GitHub (Cloud)
+🔹 Step-by-Step Workflow
+You write code (local system)
+Git tracks changes
+You commit changes
+You push to GitHub
+📄 Page 3 – Commands & Final Understanding
+🔹 Key Points
+GitHub is useless without Git
+Git is powerful even without GitHub
+🔹 Example Workflow
+Step 1 – Initialize Project
+git init
+git add .
+git commit -m "Initial commit"
+
+👉 Everything is stored locally
+
+🔹 Connect to GitHub
+git remote add origin <repo-url>
+git push -u origin main
+
+👉 Now your project is online
+
+🔹 Final Definition
+
+Git is a distributed version control system used to track changes locally, while GitHub is a cloud-based platform used to host repositories and enable collaboration.
+
+🚀 Summary
+Git → Version control (local)
+GitHub → Hosting + collaboration (cloud)
+Together → Complete development workflow
